@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSstrona1</title>
+<div id="JSstrona"></div>
+<script type="text/javascript">
+
+var zmienna1 = "to jest zmienna1 -  to jest napisane w js" 
+document.getElementById("JSstrona").innerHTML = zmienna1 ;
+
+
+
+
+
+for (let cb = 1; cb < 10; cb++){
+    setInterval( function con(){console.log(cb)}, 1)
+        
+        document.getElementById("JSstrona").innerHTML += "<br>"+"<br>" + cb + ' '
+    }
+
+for (var i = 1; i <= 5; ++i) {
+(function(n) {
+    setTimeout(function(){
+        console.log(n);
+        document.getElementById("JSstrona").innerHTML += "<br>"+"<br>" + n + ' '
+    }, 1000);
+}(i));
+}
+
+
+
+</script>
+<b><i> JSstrona1 - to jest napisane w html</i></b>
+
+</head>
+<body onload="t();">
+
+
+
+
+</body>
+</html>
