@@ -5,22 +5,23 @@
     <title>JSstrona1</title>
 <div id="JSstrona"></div>
 <script type="text/javascript">
-
 var zmienna1 = "to jest zmienna1 -  to jest napisane w js" 
 document.getElementById("JSstrona").innerHTML = zmienna1 ;
 
 
 
 
+for (let cb = 1; cb < 11; cb++){
+     tas(cb);
+    }
+    function tas(cb){
+        setTimeout(function(){
 
-for (let cb = 1; cb < 10; cb++){
-    setTimeout(function(){
-    console.log(cb)
-    document.getElementById("JSstrona").innerHTML += "<br>"+"<br>" + cb + ' '
-    },2000)
-}
-
-
+        document.getElementById("JSstrona").innerHTML += "<br>"+"<br>" + cb + ' '
+    }, 2000 * cb)
+    }
+    
+    
 
 
 </script>
