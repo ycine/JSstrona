@@ -1,4 +1,4 @@
-body{ background-color: rgb(3, 173, 12);
+body{ background-color: rgb(253, 253, 253);
 font-family: 'Lucida Sans';
 font-size: 19px;
 color: black;
@@ -8,13 +8,15 @@ padding: 0;
 margin: 0;}
 
 #menu{
-    background-color: yellowgreen;
-    color: forestgreen ;
+    background-color: rgb(152, 153, 152);
+    color:rgb(14, 58, 14) ;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: auto;
     font-size: x-large;}
+
 
 .opcje{
     float: left;
@@ -22,14 +24,40 @@ margin: 0;}
     height: 20px;
     font-size: large;
     padding: 10px;
-    border-right: 3px, dotted, rgba(102, 5, 102, 0.425);
+    border-right: 3px solid rgba(102, 5, 102, 0.425);
 }
 
+.opcje:hover{
+    background-color: rgba(95, 95, 4, 0.301);
+    cursor: pointer;
+    
+}
+
+#main{
+    background-color: rgb(195, 196, 194);
+    color: rgb(14, 58, 14) ;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 70px;
+    font-size: x-large;}
+
+#JSstrona{
+    width: 800px;
+    color: rgb(129, 92, 43);
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: justify;
+
+}
 
 #podzial{
     
     width: 800px;
-    color: burlywood;
+    color: rgb(133, 93, 40);
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -54,15 +82,17 @@ margin: 0;}
 #pasekdol{
     background-color: rgba(23, 77, 12, 0.849);
     width: auto;
-    color: burlywood;
+    color: rgba(161, 96, 10, 0.678);
     text-align: justify;}
+
 .pasek2{
-    float: left;
-    width: 100%;
+    position: fixed;
+    bottom: 0;
     height: 50px;
+    width: 100%;
+    float: left;
     padding: 0;
-    margin: 0;
-    position: absolute;
-    bottom: 0px;
+    color: black;
+    background-color:rgba(23, 77, 12, 0.849);
     
 }

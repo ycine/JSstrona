@@ -10,7 +10,10 @@
     <div style="clear: both;"></div>
 </div>
 <div id="menu">
-    <b>Menu</b>
+    <div id="kali">
+        <img src="kali.png"style='height: 30%; width: 30%; object-fit: fill; float: right;'/>
+        
+    </div>
     <br>
     <div class="opcje"><b>Opcje</b></div>
     <div class="opcje"><b>Opis</b></div>
@@ -18,6 +21,8 @@
     <div class="opcje"><b>Dodaj</b></div>
     <div style="clear: both;"></div>
 </div>
+
+<div id="main">
 <br>
 <br>
 <div id="JSstrona"></div>
@@ -35,7 +40,7 @@ for (let cb = 1; cb < 11; cb++){
     function tas(cb){
         setTimeout(function(){
 
-        document.getElementById("JSstrona").innerHTML += "<br>" + cb + ' '
+        document.getElementById("JSstrona").innerHTML += "<br>"+ cb + ' '
     }, 2000 * cb)
     }
     
@@ -43,9 +48,7 @@ for (let cb = 1; cb < 11; cb++){
 
 
 </script>
-<b><i> JSstrona1 - to jest napisane w html</i></b>
-<br>
-<br>
+   <br>
 
 <div id="podzial">
    <b>Podzial</b> 
@@ -54,12 +57,13 @@ for (let cb = 1; cb < 11; cb++){
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla ante a ornare blandit. Suspendisse sollicitudin eu erat in condimentum. Donec quis tincidunt tellus, id feugiat sem. Quisque nec urna pretium, bibendum orci sed, posuere lectus. Vestibulum efficitur tortor quis lectus luctus lobortis. Quisque non dui tempor, tristique nulla a, imperdiet massa. Vestibulum nec leo fringilla, pretium mi et, bibendum risus. Quisque at eros a orci ullamcorper dictum. Duis vel tempor quam, vel sagittis mi. Etiam vel dolor vel diam blandit pellentesque. Ut auctor commodo elit, et efficitur odio. Integer pulvinar vulputate nisi semper porta. Sed gravida erat accumsan, ultricies turpis eu, posuere diam. 
 </div>
 
+</div>
 
 <div id="pasek">
     <div class="pasek2"></div>
     <div style="clear: both;"></div>
 </div>
-</div>
+
 </head>
 <body>
 
